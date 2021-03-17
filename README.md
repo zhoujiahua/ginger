@@ -1,6 +1,7 @@
 # Ginger
 
 > 官方文档 https://pipenv.pypa.io/en/latest/
+> 基本使用 [https://www.cnblogs.com/blueberry-mint/p/13362737.html](https://www.cnblogs.com/blueberry-mint/p/13362737.html)
 
 ## Project introduction
 

@@ -58,6 +58,7 @@ pipenv会自动帮你管理虚拟环境和依赖文件，并且提供一系列�
 > 创建环境
 
 `pipenv install`
+
 上述命令会生成Pipfile和Pipfile.lock，使用pipenv创建虚拟环境，自动生成一个随机的虚拟环境目录名。
 
 如果在windows系统下执行命令，生成的虚拟环境在C:\Users\用户名\.virtualenvs文件夹下。
@@ -67,11 +68,13 @@ pipenv会自动帮你管理虚拟环境和依赖文件，并且提供一系列�
 > 激活虚拟环境
 
 `pipenv shell`
+
 创建环境后会自动进入到虚拟环境中，当退出虚拟环境重新进入到虚拟环境则需要执行以上命令。
 
 > 安装依赖包到虚拟环境
 
 `pipenv install requests`
+
 不管是否激活虚拟环境，都可以执行pipenv install 库名来安装。
 
 > 查看已安装的模块
@@ -91,8 +94,10 @@ pipenv会自动帮你管理虚拟环境和依赖文件，并且提供一系列�
 `pipenv --where`
 
 > 通过requirements.txt文件安装模块
+
 `pipenv install -r requirements.txt`
 
 > 总结
+
 以上就是pipenv的简单说明和一些命令的基本使用，如果想了解更多pipenv的用法可以去pipenv官方文档中查阅。
 

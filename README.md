@@ -7,40 +7,40 @@
 ## Introduction
 
 ```
-    The current project is built using Python3 and flask frameworks.
-    Python.
-    The project virtual environment is managed using Pipenv.
-    Pipenv install.
+The current project is built using Python3 and flask frameworks.
+Python.
+The project virtual environment is managed using Pipenv.
+Pipenv install.
 ```
 
 ## Pipenv install
 
 ```
-    pipenv --where
-    pipenv --venv
-    pipenv install
-    pipenv shell
-    pipenv graph
+pipenv --where
+pipenv --venv
+pipenv install
+pipenv shell
+pipenv graph
 ```
 
 
 ## Pipenv Commands
 
 ```
-    check      Checks for security vulnerabilities and against PEP 508 markers
-             provided in Pipfile.
-    clean      Uninstalls all packages not specified in Pipfile.lock.
-    graph      Displays currently–installed dependency graph information.
-    install    Installs provided packages and adds them to Pipfile, or (if no
-             packages are given), installs all packages from Pipfile.
-    lock       Generates Pipfile.lock.
-    open       View a given module in your editor.
-    run        Spawns a command installed into the virtualenv.
-    scripts    Displays the shortcuts in the (optional) [scripts] section of
-             Pipfile.
-    shell      Spawns a shell within the virtualenv.
-    sync       Installs all packages specified in Pipfile.lock.
-    uninstall  Un-installs a provided package and removes it from Pipfile.
+check      Checks for security vulnerabilities and against PEP 508 markers
+         provided in Pipfile.
+clean      Uninstalls all packages not specified in Pipfile.lock.
+graph      Displays currently–installed dependency graph information.
+install    Installs provided packages and adds them to Pipfile, or (if no
+         packages are given), installs all packages from Pipfile.
+lock       Generates Pipfile.lock.
+open       View a given module in your editor.
+run        Spawns a command installed into the virtualenv.
+scripts    Displays the shortcuts in the (optional) [scripts] section of
+         Pipfile.
+shell      Spawns a shell within the virtualenv.
+sync       Installs all packages specified in Pipfile.lock.
+uninstall  Un-installs a provided package and removes it from Pipfile.
 ```
 
 > 虚拟环境
